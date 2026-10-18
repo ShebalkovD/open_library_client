@@ -1,4 +1,4 @@
-import {getBookUrl, getCoverUrl} from "/scripts/api.js";
+import {getBookUrl, getCoverUrl} from "./api.js";
 
 export class Components {
     constructor() {

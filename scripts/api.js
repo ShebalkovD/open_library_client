@@ -1,4 +1,4 @@
-import {REQUEST_CACHE} from "/scripts/cache.js";
+import {REQUEST_CACHE} from "./cache.js";
 
 const OPEN_LIBRARY_HOST = 'https://openlibrary.org'
 const COVER_OPEN_LIBRARY_HOST = 'https://covers.openlibrary.org'

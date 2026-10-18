@@ -1,5 +1,5 @@
-import {createRequest, serializeBooks} from "/scripts/api.js";
-import {Components} from "/scripts/components.js";
+import {createRequest, serializeBooks} from "./api.js";
+import {Components} from "./components.js";
 
 const searchButton = document.getElementById('searchButton')
 const searchInput = document.getElementById('searchInput')

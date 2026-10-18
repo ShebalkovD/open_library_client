@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Поиск книг</title>
+</head>
+<body>
+
+<header>
+    <div class="center-wrapper">
+        <h1>
+            Open Library клиент
+        </h1>
+    </div>
+</header>
+
+<main>
+    <div class="center-wrapper">
+        <div class="search-controls">
+            <input id="searchInput" type="text" placeholder="Введите название книги">
+            <button id="searchButton">Поиск</button>
+        </div>
+
+        <section id="bookContainer">
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="center-wrapper">
+        Информация взята из открытого ресурса <a href="https://openlibrary.org/" target="_blank">Open Library</a>
+    </div>
+</footer>
+
+<script type="module" src="scripts/cache.js"></script>
+<script type="module" src="scripts/components.js"></script>
+<script type="module" src="scripts/api.js"></script>
+<script type="module" src="scripts/main.js"></script>
+</body>
+</html>

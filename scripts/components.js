@@ -19,7 +19,7 @@ export class Components {
 
 
         const bookURL = getBookUrl(key)
-        const coverURL = cover_id ? getCoverUrl(cover_id) : '../assets/image-placeholder.svg'
+        const coverURL = cover_id ? getCoverUrl(cover_id) : './assets/image-placeholder.svg'
 
         cardEl.classList.add('book-card')
         titleEl.innerText = title.toLowerCase()
